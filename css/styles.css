@@ -22,4 +22,33 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: black;
+  color: aliceblue;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button-menu {
+    display: none;
+  }
+
+  .menu {
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+  }
+}
+
+.red {
+  color: red;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
 }
